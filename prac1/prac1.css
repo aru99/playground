@@ -1,7 +1,113 @@
-td {
-  white-space: pre;
-}
+body
+{
 
+  background-color: rgba(172, 214, 206, 0.56);
+
+}
 table,th,td{
   border: 1px solid black;
+  border-collapse: collapse;
 }
+
+th,td{
+  padding: 3px;
+}
+ th{
+   text-align: left;
+ }
+ caption{
+   font-style: italic;
+   font-family: cursive;
+   color: rgb(164, 31, 12)
+ }
+
+table#t01{
+  background-color: rgb(116, 154, 96);
+}
+
+table#t01 tr:nth-child(even){
+background-color: rgba(80, 205, 171, 0.78) ;
+}
+
+table#t01 td:nth-child(odd){
+  background-color: rgba(146, 196, 24, 0.74);
+}
+
+ul{
+  list-style-type: disc;
+}
+
+ol{
+list-style-type:lower-greek;
+}
+
+ul#ul01{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(8, 8, 9);
+}
+
+li {
+  float:right;
+}
+
+li a{
+  display: block;
+  color: rgb(235, 232, 236);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+
+li a:hover{
+  background-color: #95a1a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
