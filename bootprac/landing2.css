@@ -7,7 +7,7 @@ header,
 }
 
 #intro {
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    background: url("http://vignette2.wikia.nocookie.net/teentitans/images/9/96/TeenTitansTT.jpg/revision/latest/scale-to-width-down/2000?cb=20160701202447")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,7 @@ header,
 }
 
 .navbar-inverse{
-  background-color:inherit;
+  background-color:#c5a38e;
   border:none;
   font-weight: bold;
 }
@@ -23,11 +23,12 @@ header,
  #ps
  {
    color: rgb(12, 15, 11);
+   font-size: 22px;
  }
 
 
  #ps:hover {
-     color: rgba(70, 77, 85, 0.55);
+     color: #05064b8c;
      background-color: transparent;
 
  }
