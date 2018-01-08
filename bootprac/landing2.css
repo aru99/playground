@@ -20,12 +20,20 @@ header,
   font-weight: bold;
 }
 
-#ps:hover {
-    color: rgba(17, 36, 23, 0.64);
-    background-color: transparent;
-  
-}
  #ps
  {
    color: rgb(12, 15, 11);
  }
+
+
+ #ps:hover {
+     color: rgba(70, 77, 85, 0.55);
+     background-color: transparent;
+
+ }
+/**
+#ps:visited{
+  color: rgb(189, 193, 8);
+  background-color: transparent;
+}
+**/
