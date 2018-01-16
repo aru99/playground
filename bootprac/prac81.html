@@ -4,32 +4,45 @@
     <meta charset="utf-8">
     <title>prac81</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="prac81.css">
+
   </head>
   <body>
+
+    <!-- jumbotron:-navbar is included in jumbotron  -->
     <div id="id1" class="jumbotron">
       <h1>Farm Animals</h1>
+
+      <!--navbar -->
       <nav class="navbar navbar-default">
 
           <div class="navbar-header">
             <a href="#" class="nav-brand"></a>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li> <a id="idq" href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-            <li> <a id="idq" href="#"><i class="fa fa-hand-rock-o" aria-hidden="true"></i> support us</a></li>
-            <li> <a id="idq" href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>Donate</a> </li>
-            <li><a id="idq" href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Our growth</a></li>
-            <li><a id="idq" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Pet Care Courses</a></li>
-            <li><a id="idq" href="#"><i class="fa fa-address-book" aria-hidden="true"></i>Contact us</a></li>
+            <li> <a id="idq" href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li> <a id="idq" href="support.html"><i class="fa fa-hand-rock-o" aria-hidden="true"></i> support us</a></li>
+            <li> <a id="idq" href="donate.html"><i class="fa fa-credit-card" aria-hidden="true"></i> Donate</a> </li>
+            <li><a id="idq" href="growth.html"><i class="fa fa-line-chart" aria-hidden="true"></i>Our growth</a></li>
+            <li><a id="idq" href="courses.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Pet Care Courses</a></li>
+            <li><a id="idq" href="contact.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact us</a></li>
+            <li><a href="#" id="idq"> References</a></li>
           </ul>
 
 
       </nav>
-
+<!--navbar end -->
     </div>
+<!-- jumbotron end  -->
+
+<div class="alert alert-success">
+  <strong>success!!</strong> you should <a href="#" class="alert-link">read this message</a>
+
+</div>
+
 
     <!-- nav bar after jumbotron
 
@@ -46,5 +59,232 @@
           </ul>
       </nav>
 -->
+<div class="container-fluid">
+<table class="table table-stripped">
+  <tr id="idTable1">
+    <th>Animal</th>
+    <th>Breed</th>
+    <th>General Habitat</th>
+  </tr>
+
+<tr >
+    <td id="domesticAnimal">Domestic 
+      <ol type="1">
+<li>
+  <a href="#"> Dogs</a>
+</li>
+<li>
+  <a href="#">cats</a>
+</li>
+<li>
+  <a href="">Horses</a>
+</li>
+<li>
+  <a href="#">Lizards</a>
+</li>
+        </ol>
+    </td>
+
+    <td >
+      <ol type="1">
+        <li>
+          <ul  style="list-style-type:disc">
+<li><a id="domesticAnimalBreed"></a>
+</li>
+<li>
+  <a id="domesticAnimalBreed">pitbull</a>
+</li>
+<li>
+  <a id="domesticAnimalBreed">husky</a>
+</li>
+<li><a id="domesticAnimalBreed">pug</a></li>
+        </ul>
+      </li>
+      <li>
+          <ul style="list-style-type:disc">
+<li><a id="domesticAnimalBreed">kitty</a></li>
+<li><a id="domesticAnimalBreed">kitty</a></li>
+<li><a id="domesticAnimalBreed">kitty</a></li>
+<li>
+<a id="domesticAnimalBreed">Aur kitty</a>
+</li>
+      </li>
+      </ol>
+    </td>
+
+    <td id="generalHabitat">
+      <ol>
+        <li>human vicinity</li>
+        <li>Human vicinity</li>
+        <li>stable</li>
+        <li>every damn corner</li>
+  
+        
+      </ol>
+    </td>
+ </tr>
+
+ 
+</table>
+
+
+<!--buttons start -->
+<div class="container-fluid  " align="center">
+  <button id="button" type="button" class="btn btn-default">button1</button>
+  <button id="idw" type="button" class="btn btn-info" onclick="alert('button 2 alert window')">button2</button>
+  <button id="idw" type="button" class="btn btn-danger" onclick="alert('button 3 alert window')">button3</button>
+  <button type="button" class="btn btn-success" onclick="alert('alert for button 4')" id="idw">button4</button>
+</div>
+
+<!--buttons end -->
+<div class="container-fluid">
+  <div class="alert alert-success alert-dismissable fade in " id="">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>success!!</strong><p>the submission has been confirmed</p>
+  </div>
+
+<!--block level buttons start -->  
+<!--
+</div>
+<button type="button" class="btn btn-primary btn-block active" id="BlocklevelButton">next page</button>
+<button type="button" class="btn btn-primary btn-block disabled" id="BlocklevelButton">next page</button>
+</div> -->
+<!--block level buttons end  -->
+
+<!--justified button group start-->
+<div class=" btn-group btn-group-justified">
+<a href="#" class="btn btn-primary" id="BlocklevelButton">dogs</a>
+<a href="#" class="btn btn-primary" id="BlocklevelButton">cats</a>
+<a href="#" class="btn btn-primary" id="BlocklevelButton">horses</a>
+
+</div>
+<!--justified button group end -->
+
+<!--dropdown wala button start -->
+<div class="btn-group">
+  <button type="butoon" class="btn btn-primary dropdown-toggle " data-toggle="dropdown">Dogs <span class="caret"></span>
+  <ul class="dropdown-menu" role="menu">
+<li><a href="#">labrador</a></li>
+<li><a href="#">husky</a></li>
+
+  </ul>
+  
+  </button>
+
+</div>
+<!--dropdown wala button end -->
+
+
+<!--progressbar start -->
+<div class="progress">
+  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+70% complete
+
+  </div>
+</div>
+<!--progressbar end -->
+
+<!--stacked progrss bar -->
+
+<div class="progress">
+<div id="progressbarfont" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:40%">
+   40% web development
+  </div>
+<div id="progressbarfont" class="progress-bar progress-bar-danger progress-bar-striped active" style="width:40%">
+   40% competative programming
+  </div>
+<div id="progressbarfont" class="progress-bar progress-bar-info progress-bar-striped active" style="width:20%"> 20% linux</div>
+</div>
+<!-- end of stacked progress bar -->
+
+<!--pagination -->
+<ul  class="breadcrumb">
+  <li id="pagination"><a href="#">home</a></li>
+  <li><a href="#" id="pagination">private</a></li>
+  <li><a href="#" id="pagination">pictures</a></li>
+
+</ul>
+
+<!--pagination end -->
+
+<!--pager -->
+<ul class="pager">
+  <li class="previous"><a href="#">previous page</a></li>
+  <li class="next"><a href="#">next page</a></li>
+</ul>
+<!--pager -->
+
+<!--lists -->
+<ul id="listfontcustom" class="list-group">
+  <li id="General" class="list-group-item disabled">first item <span class="badge"><a href="#">x</a></span></li>
+<li id="General" class="list-group-item">second item <span id="General" class="badge"> <a href="#" id="General">y</a>
+</span></li>
+<li id="General" class="list-group-item">third item <span class="badge">z</span></li>
+</ul>
+<!--lists end -->
+
+<!--panels -->
+<div class="panel panel-primary">
+  <div class="panel-heading">a basic panel</div>
+  <div class="panel-body">body of a basic panel</div>
+  <div class="panel-footer">footer of a basic panel</div>
+</div>
+<!--panels end -->
+
+<!--Dropdown -->
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown example <span class="caret"></span></button>
+  <ul class="dropdown-menu"></ul>
+  <li><a href="#">html</a></li>
+  <li><a href="#">css</a></li>
+  <li><a href="#">javascript</a></li>
+</div>
+<!--Dropdown end -->
+ 
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li>
+      <a href="#">HTML</a>
+    </li>
+    <li>
+      <a href="#">CSS</a>
+    </li>
+    <li>
+      <a href="#">JavaScript</a>
+    </li>
+  </ul>
+
+  <div class="container">
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">
+button
+</button>
+<div id="demo" class="collapse">
+this is just some hidden data
+
+</div>
+
+  </div>
+  <div class="container">
+    <h2>Collapsible Panel</h2>
+    <p>Click on the collapsible panel to open and close it.</p>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Panel Body</div>
+          <div class="panel-footer">Panel Footer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
