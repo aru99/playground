@@ -143,3 +143,27 @@ font-style: italic;
   color: hsl(236, 88%, 44%);
   font-size: 18px;
 }
+
+.list-group
+{
+  color: #b42323;
+  background-color: #47ac19;
+}
+
+.list-group-item:hover
+{
+  color: #f15f0b;
+  background-color: antiquewhite;
+}
+
+.badge
+{
+  color: hsl(0, 73%, 97%);
+  background-color: black;
+}
+
+.badge:hover{
+  color: #d6861d;
+  background-color: rgb(31, 28, 28);
+
+}
