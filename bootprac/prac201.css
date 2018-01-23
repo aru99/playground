@@ -1,0 +1,82 @@
+
+#jumbotronId{
+background-color: #3860cee8;
+min-height: 250px;
+margin-top:10px;
+margin-bottom: 10px;
+padding-bottom:10px;
+
+
+
+}
+
+#JumbotronH1
+{
+    color: white;
+    font-family: cursive;
+}
+
+#JumbotronH1A
+{
+text-decoration: none;
+
+}
+
+img{
+    float: left;
+    margin-left: 10px;
+    
+    
+}
+
+#navid
+{
+    border:none;
+    background-color:#252121;
+    color: white;
+    margin-top: none;
+    margin-bottom: none;
+    padding-top: none;
+
+}
+
+#navlogos
+{
+    color: white;
+    font-size: 16px;
+
+}
+
+#navlogos:hover{
+    color: bisque;
+    font-size: 16.5px;
+}
+
+#facebookicon
+{
+    color: white;
+    
+}
+
+#facebookicon:hover
+{
+    color: rgb(202, 202, 170);
+    
+}
+
+#preid1{
+    background-color:transparent;
+    border: none;
+}
+
+#ajumbotron {
+    text-decoration: none;
+}
+
+#BadgesText {
+    color: black;
+    text-decoration: none;
+}
+#BadgesText:hover{
+    color: #464242;
+}
