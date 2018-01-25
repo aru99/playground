@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="prac81.css">
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target="navbar" data-offset="50">
 
     <!-- jumbotron:-navbar is included in jumbotron  -->
     <div id="id1" class="jumbotron">
@@ -883,31 +883,172 @@ collapsible data,damn this is cool!!!!!
     <h4>data</h4>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!---------------------------------------------- ---- -->
 
+<!-- ---------------prac25117------------------------ -->
 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">navexample</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li><a href="#">home</a></li>
+      <li><a href="#">contact us</a></li>
+      <li><a href="#">support</a></li>
+      <li><a href="#">growth</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<form class="form-horizontal" action="">
+  <div class="form-group">
+    <label class="control-label" for="email">Email Address</label>
+    <input type="email" class="form-control" id="email" >
+  </div>
+
+  <div class="form-group">
+    <label class="control-label " for="password">Password</label> 
+    <input type="password" class="form-control" id="password" >
+  </div>
+  <div class="form-group">
+    <label for="comment">Comment:</label>
+    <textarea class="form-control"  id="comment"  rows="5"></textarea>
+  </div>
+
+  <div class="radio">
+    <label  for=""><input type="radio">Remember me</label>
+  </div>
+
+  <div class="radio">
+    <label class="radio-inline" for=""><input type="radio">car</label>
+  </div>
+  <div class="radio">
+    <label class="radio-inline" for="inputlg"><input type="radio">bike</label>
+
+  </div>
+
+  <div class="radio disabled">
+    <label class="radio-inline" for=""><input type="radio" disabled>Tank</label>
+
+    <div class="form-group ">
+      <label for="sel1">select list:</label>
+      <select name=""  class="form-control" id="sel1">
+        <option value="1">ETCS01</option>
+<option value="1">ETCS02</option>
+<option value="1">ETCS03</option>
+<option value="1">ETCS04</option>
+<option value="1">ETCS05</option>
+<option value="1">ETCS06</option>
+<option value="1">ETCS07</option>
+<option value="1">ETCS08</option>
+
+      </select>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-default">submit</button>
+</form>
+
+<form action="">
+  <div class="input-group">
+<span class="input-group-addon">
+  <i class="glyphicon glyphicon-user"></i>
+</span>
+<input type="text" id="email" class="form-control" name="email" placeholder="Email">
+  </div>
+
+  <div class="input-group">
+<span class="input-group-addon">
+  <i class="glyphicon glyphicon-lock"></i>
+</span>
+<input type="text" id="password" class="from-control" name="password" placeholder="password">
+  </div>
+</form>
+
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">open modal</button>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+ 
+ <div class="modal-content">
+   <div class="modal-header">
+     <button type="button" class="close" data-dismiss="modal">&times;</button>
+     <h3 class="modal-title">This is fucking cool</h3>
+   </div>
+<div class="modal-body">
+  <p>this is just some text</p>
+  <table class="table">
+    <tr>
+      <th>developers team</th>
+      <th>marketing team</th>
+      <th>design team</th>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+            <li>arman</li>
+            <li>prashent</li>
+            <li>rishav</li>
+      </ol>
+    </td>
+
+    <td>
+      <ol>
+        <li>akansha</li>
+        <li>mansi</li>
+        <li>akarsh</li>
+      </ol>
+    </td>
+    <td>
+      <ol>
+        <li>prateek</li>
+        <li>shivm</li>
+        <li>harry</li>
+      </ol>
+    </td>
+    </tr>
+  </table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+</div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
+<a href="#" data-toggle="tooltip" data-placement="top" title="hell yah">navy seal</a> <br>
+<a href="#" data-toggle="tooltip" daata-placement="right" title="hell yeah">army</a> <br>
+<a href="#" data-toggle="tooltip" daata-placement="bottom" title="hell yeah">
+ army</a><br>
+<a href="#" data-toggle="tooltip" daata-placement="left" title="hell yeah">army</a> <br>
+
+<script>
+  $(document).ready(function () {
+    $('[data-toggle="popover"]').popover();
+      });
+</script>
+<a href="#" data-toggle="popover" title="Popover Header" data-content="this is even bloody awesome" data-trigger="hover">click me!!!</a>
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------------- -->
   </body>
 </html>
