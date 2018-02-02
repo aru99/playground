@@ -1,0 +1,479 @@
+/* ==========================================================================
+   Start of custom Webflow CSS
+   ========================================================================== */
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    line-height: 22px;
+}
+
+.body {
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+
+.section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section.hero {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    height: 800px;
+}
+
+.section.work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section.clients {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #ebebeb;
+    background-image: -webkit-linear-gradient(135deg, #f8c7c7, #fff5f5);
+    background-image: linear-gradient(315deg, #f8c7c7, #fff5f5);
+    color: #fff;
+}
+
+.section.contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section.project-detail {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section.pp-page-content {
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.container._1 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.container._2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container._3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(270deg, #ccc8e9, #fff);
+    background-image: linear-gradient(180deg, #ccc8e9, #fff);
+}
+
+.container.pp-hero {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-headline {
+    position: relative;
+    z-index: 1;
+    color: #000;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.thumbnail-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.work-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.nav-wrap {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: block;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.nav-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    padding-top: 2px;
+    padding-right: 60px;
+    padding-left: 60px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    color: #000;
+    font-size: 12px;
+    line-height: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #ff6363;
+}
+
+.nav-links {
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 30px 100px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+
+.nav-wrap {
+    position: fixed;
+    left: 25px;
+    top: 25px;
+    right: auto;
+    bottom: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav-button {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 2px #000;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    border-radius: 8px;
+}
+
+.nav-button:active {
+    border-radius: 12px;
+}
+
+.work-content {
+    position: relative;
+    z-index: 5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.project-content-right {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin-top: -172px;
+    padding: 60px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 30px 100px 0 rgba(0, 0, 0, .1);
+}
+
+.bar {
+    width: 80px;
+    height: 2px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #000;
+}
+
+.work-title {
+    margin-bottom: 25px;
+    padding-top: 2px;
+    padding-left: 30px;
+    border-left: 2px solid #000;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.project-number-wrap {
+    position: absolute;
+    right: 60px;
+    z-index: 5;
+    margin-top: -64px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-align: right;
+}
+
+.work-thumbnail-color {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.hero-img-wrap {
+    position: absolute;
+    left: 214px;
+    z-index: 0;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #d4bdf6;
+}
+
+.project-paragraph {
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    color: #85838a;
+}
+
+.project-link-text {
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about-text {
+    max-width: 800px;
+    margin-bottom: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input {
+    height: 50px;
+    margin-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 30px 70px 0 rgba(0, 0, 0, .1);
+    font-size: 13px;
+}
+
+.input:focus {
+    border-color: #000;
+}
+
+.input.email {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.input.long {
+    height: auto;
+    min-height: 180px;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+.form-wrap {
+    width: 550px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    background-image: none;
+}
+
+.form-button {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(79deg, #f8c7c7, #ffe6e6);
+    background-image: linear-gradient(11deg, #f8c7c7, #ffe6e6);
+    box-shadow: 0 30px 70px 0 rgba(0, 0, 0, .1);
+    color: #000;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.form-button:hover {
+    background-color: #f8c7c7;
+    background-image: -webkit-linear-gradient(353deg, #f5b5b5, #fcd0d0);
+    background-image: linear-gradient(97deg, #f5b5b5, #fcd0d0);
+}
