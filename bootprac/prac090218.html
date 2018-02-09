@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>text masking</title>
+    <link rel="stylesheet" href="prac090218.css" />
+    
+</head>
+<body>
+   
+<svg width="100%" height="100vh">
+
+    <defs>
+        <style>
+                #back{
+                    background-color: black;
+                }    
+        </style>
+    </defs>
+
+    <mask id="maskLayer">
+        <rect width="100%" height="100%" fill="#fff"></rect>
+        <text x="20%" y="55%" id="info">Wander</text>
+    </mask>
+
+    <rect id="masked" width="100%" height="100%" fill="#f5f5f5"></rect>
+</svg>
+
+<video src="BG%20VIDEO.mp4" id="bg" autoplay loop></video>
+
+</body>
+</html>
