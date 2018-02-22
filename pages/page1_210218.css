@@ -1,0 +1,133 @@
+html body{
+  background-color: rgb(43, 48, 59);
+}
+
+.jumbotron
+{
+  text-align: center;
+
+}
+
+.v1{
+  border-left: 2px solid orange;
+
+  height: 500px;
+  position: absolute;
+  left: 55%;
+  margin-left: -3px;
+  top: 250px;
+}
+
+.v1:hover{
+  color:rgb(34, 246, 125);
+}
+
+.f1{
+  background-color:rgb(43, 48, 59);
+  color: white;
+  border: 1px solid white;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+
+}
+
+.f1btn{
+  background-color: rgb(34, 246, 125);
+  color: black;
+  margin-top: 100px;
+  width: 400px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  color: white;
+}
+
+.f1btn:hover{
+  background-color: rgb(49, 193, 111);
+}
+
+.f3
+{
+  margin-left: 65%;
+  margin-top: 15%;
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-align: center;
+  color: rgba(122, 186, 116, 0.94);
+}
+
+.para
+{
+  color: white;
+  margin-left: 66.5%;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+.paraA{
+  text-decoration: none;
+  color: rgba(21, 178, 194, 0.83);
+  letter-spacing: 2px;
+}
+.paraA:hover{
+  text-decoration: none;
+  color: rgba(49, 121, 129, 0.83);
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////
