@@ -5,9 +5,9 @@
     <title>landing page 1</title>
     <link rel="stylesheet" href="page1_210218.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script>
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
   </head>
   <body>
 
@@ -21,15 +21,35 @@
     <form class="f2" action="index.html" method="post">
       <input class="f1" type="email" name="" placeholder="Email"> <br>
       <input class="f1" type="password" name="" placeholder="Password"><br>
-      <input class="f1btn" type="button" name="" value="CONNECT">
+      <button type="button" class="btn f1btn">CONNECT</button>
+    <button type="button" class="btn f2btn" data-toggle="modal" data-target="#myModal">SIGN UP</button>
     </form>
   </div>
     <p class="para">Forgot your Password? <a class="paraA" href="#">-click here to reset</a> </p>
 
-    <div class="logo">
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">USER REGISTRATION</h4>
+      </div>
+      <div class="modal-body">
+      <form class="" action="index.html" method="post">
+      Email:-  <input type="email" name="" placeholder="Enter your email id"> <br>
+        Password:-<input type="password" name="" placeholder="enter a new password"> <br>
+        Password verification:-<input type="password" name="" placeholder="reenter your password">
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
     </div>
+
+  </div>
+</div>
     </div>
   </body>
 </html>
