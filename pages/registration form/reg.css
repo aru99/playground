@@ -1,0 +1,122 @@
+html body {}
+
+.bg {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: monospace;
+}
+
+.form-container {
+  background-color: rgba(78, 69, 48, 0.71);
+  padding: 30px 30px;
+  margin-top: 5vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  -webkit-box-shadow: 4px 3px 138px -10px rgba(240, 232, 240, 1);
+  -moz-box-shadow: 4px 3px 138px -10px rgba(240, 232, 240, 1);
+  box-shadow: 4px 3px 138px -10px rgba(240, 232, 240, 1);
+  border-radius: 20px;
+  border: none;
+}
+
+.forminput {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 2%;
+  border-radius: 5px;
+}
+
+.forminput:hover {
+  background-color: rgb(218, 231, 229);
+  color: black;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  background-color: rgb(128, 123, 113);
+}
+
+::placeholder {
+  color: rgb(178, 194, 193);
+}
+
+.btn1 {
+  background-color: rgb(236, 227, 8);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: rgba(236, 227, 8, 0.72);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////
