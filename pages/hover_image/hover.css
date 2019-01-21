@@ -1,0 +1,68 @@
+html body{
+  background: #f1f1f1;
+  font-family: 'intro';
+  margin:0;
+  padding:0;
+
+}
+
+.post{
+  width:600px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+
+.post:hover .post-s{
+  width: 800px;
+}
+
+.post img{
+  display: block;
+  width: 800px;
+  height: 600px;
+
+}
+
+.post-s{
+  width: 0px;
+  height: 600px;
+  background: rgba(255, 253, 250, 0.89);
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 1.5s ease;
+}
+
+.post-s h2{
+  color: black;
+  font-size: 50px;
+  border: 6px solid black;
+  padding:10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////

@@ -1,4 +1,9 @@
 
-document.write("this is just some string");
-var x=parseInt(prompt("enter the no of subjects"));
 
+var arr_size=parseInt(prompt("enter the no of subjects"));
+
+for (var i=0;i<arr_size;i++)
+{
+    document.write("the subject code is "+i+"</br>");
+    document.write("is this cool"+"</br>");
+}
